@@ -1,25 +1,18 @@
-%% Mach = 0
+%% File to run xfoilsimplot
 
-% Re = 10^4
-plots = xfoilsimplot("naca651412.dat", "n1m0r4.dat","pacc")
-plots = xfoilsimplot("naca651412.dat", "n5m0r4.dat","pacc")
-plots = xfoilsimplot("naca651412.dat", "n0m0r4.dat","pacc")
+% %% Mach = 0
+% plots = xfoilsimplot("naca651412.dat","pacc", 0, 10000)
+% plots = xfoilsimplot("naca651412.dat","pacc", 0, 20000)
+% plots = xfoilsimplot("naca651412.dat","pacc", 0, 40000)
+% plots = xfoilsimplot("naca651412.dat","pacc", 0, 60000)
+% plots = xfoilsimplot("naca651412.dat","pacc", 0, 80000)
+% plots = xfoilsimplot("naca651412.dat","pacc", 0, 100000)
 
+% %% Mach = 0.012
+% plots = xfoilsimplot("naca651412.dat","pacc", 0.012, 10000)
+% plots = xfoilsimplot("naca651412.dat","pacc", 0.012, 20000)
+% plots = xfoilsimplot("naca651412.dat","pacc", 0.012, 40000)
+% plots = xfoilsimplot("naca651412.dat","pacc", 0.012, 60000)
+% plots = xfoilsimplot("naca651412.dat","pacc", 0.012, 80000)
+% plots = xfoilsimplot("naca651412.dat","pacc", 0.012, 100000)
 
-% Re = 10^5
-plots = xfoilsimplot("naca651412.dat", "n1m0r5.dat","pacc")
-plots = xfoilsimplot("naca651412.dat", "n5m0r5.dat","pacc")
-plots = xfoilsimplot("naca651412.dat", "n9m0r5.dat","pacc")
-
-%% Mach  = 0.012
-
-% Re = 10^4
-plots = xfoilsimplot("naca651412.dat", "n1m0012r4.dat","pacc")
-plots = xfoilsimplot("naca651412.dat", "n5m0012r4.dat","pacc")
-plots = xfoilsimplot("naca651412.dat", "n9m0012r4.dat","pacc")
-
-
-% Re = 10^5
-plots = xfoilsimplot("naca651412.dat", "n1m0012r5.dat","pacc")
-plots = xfoilsimplot("naca651412.dat", "n5m0012r5.dat","pacc")
-plots = xfoilsimplot("naca651412.dat", "n9m0012r5.dat","pacc")
