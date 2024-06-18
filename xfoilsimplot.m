@@ -24,7 +24,7 @@ elseif mach == 0.012
 end
 
 % converting inputted re number to a multiple of x10^4
-p3 = string(re/10000)
+p3 = string(re/10000);
 
 % Different n crit factors which are later pulled into an array that
 % displays the legend message
@@ -51,8 +51,8 @@ for j = 1:3
     fclose(fid);
 
     if size(data) >= 1
-        index = index + 1
-        legmsg(index+1) =  ncritfactors(j) 
+        index = index + 1;
+        legmsg(index+1) =  ncritfactors(j) ;
     end
         
     if simulation_type == "pacc"
